@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="root" style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement name="rgb-image" style="background-image: url(&quot;project://database/Assets/UI/ImageRGB.asset?fileID=8600000&amp;guid=b5068923190b74624924a13bb4c4b678&amp;type=2#ImageRGB&quot;); -unity-background-scale-mode: scale-to-fit; width: 50%;">
+            <engine:Label text="RGB" style="color: rgb(255, 255, 255); -unity-text-outline-width: 0.5px; -unity-text-outline-color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 24px;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="alpha-image" style="background-image: url(&quot;project://database/Assets/UI/ImageAlpha.asset?fileID=8600000&amp;guid=3f6e0d8151de742daa501b525852bfd5&amp;type=2#ImageAlpha&quot;); -unity-background-scale-mode: scale-to-fit; width: 50%;">
+            <engine:Label text="Alpha" style="color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-outline-width: 0.5px; -unity-text-outline-color: rgb(0, 0, 0); font-size: 24px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
